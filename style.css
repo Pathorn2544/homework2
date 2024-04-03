@@ -1,0 +1,417 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 8px;
+    box-shadow: 5px;
+}
+
+nav.left {
+    /*border: 1px solid red;*/
+    width: 320px;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    padding-left: 50px;
+}
+
+
+nav.center {
+    /*border: 1px solid red;*/
+    width: 500px;
+    display: flex;
+    gap: 30px;
+
+    text-align: center;
+    align-items: center;
+
+}
+
+nav.center a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+
+nav.right {
+    /*border: 1px solid red;*/
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+nav.right .round-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+nav.right a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+
+}
+
+.line {
+    color: grey;
+}
+
+.part {
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 8px;
+    box-shadow: 5px;
+    padding-right: 20px;
+}
+
+.middle-left {
+    border: 1px solid transparent;
+    width: 20px;
+    height: 20px;
+}
+
+.middle-right {
+    border: 1px solid rgb(167, 167, 167);
+    width: 55vw;
+    height: 60vh;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    right: 20px;
+    background-color: transparent;
+    border-color: rgb(217, 217, 217);
+
+}
+
+.middle-right .head {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.middle-right .little {
+    color: gray;
+    position: relative;
+    padding: 20px;
+    gap: 90vh;
+    display: flex;
+
+}
+
+.middle-right .line {
+    width: auto;
+    color: gray;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.middle-right input {
+    width: 31vw;
+    height: 45px;
+    border: 1px solid rgb(217, 217, 217);
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+.middle-right button {
+    height: 43px;
+    width: 12.5vw;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(17, 246, 223);
+    color: rgb(17, 246, 223);
+
+}
+
+.price {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    left: 50px;
+}
+
+.result {
+
+    display: flex;
+    padding: 20px;
+    gap: 35vw;
+    align-items: center;
+    font-size: 1.11vw;
+
+}
+
+.result h3 {
+    color: gray;
+}
+
+.result h1 {
+    color: rgb(24, 236, 200);
+}
+
+.log button {
+    color: blue;
+    width: 50vw;
+    height: 3vw;
+    background-color: aqua;
+    align-items: center;
+
+}
+
+.log {
+    align-items: center;
+    justify-content: center;
+    padding-left: 35px;
+    box-shadow: none;
+}
+
+.up {
+    position: relative;
+    right: 250px;
+    display: block;
+    margin-top: 90px;
+    margin-right: 6000px;
+    height: 200px;
+    width: 31vw;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+}
+
+.first {
+    padding-left: 50px;
+}
+
+.what h4 {
+    position: relative;
+    top: 5vw;
+    right: 2vw;
+}
+
+
+
+.blue {
+    border: 1px solid rgb(85, 197, 253);
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10px;
+    background-color: rgb(85, 197, 253);
+    margin-top: 27px;
+
+
+
+}
+
+.blue h5 {
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+    color: White;
+}
+
+.blue p {
+    color: White;
+    font-size: 11px;
+    margin-left: 1vw;
+    margin-top: 7px;
+
+}
+
+.blue svg {
+    margin-top: 20px;
+    margin-left: 13px;
+    border-radius: 10px;
+}
+
+
+
+.bin {
+    border: 3px solid rgb(27, 255, 209);
+    width: 50px;
+    height: 50px;
+    border-radius: 47%;
+    margin-top: 70px;
+    margin-left: 30px;
+    padding-left: 3px;
+    padding-top: 2px;
+
+
+}
+
+.down {
+    position: relative;
+    right: 250px;
+    display: block;
+    margin-top: 20px;
+    margin-right: 6000px;
+    height: 200px;
+    width: 31vw;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+}
+
+.first {
+    padding-left: 50px;
+}
+
+.what h4 {
+    position: relative;
+    top: 3vw;
+    right: 2vw;
+}
+
+.what h6 {
+    position: relative;
+    top: 7vw;
+    right: 2vw;
+}
+
+.orange {
+    border: 1px solid rgb(255, 94, 0);
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10px;
+    background-color: rgb(255, 94, 0);
+    margin-top: 27px;
+
+
+
+}
+
+.orange h5 {
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+    color: White;
+}
+
+.orange p {
+    color: White;
+    font-size: 11px;
+    margin-left: 1vw;
+    margin-top: 7px;
+
+}
+
+.orange svg {
+    margin-top: 20px;
+    margin-left: 13px;
+    border-radius: 10px;
+}
+
+
+
+.bon {
+    border: 3px solid rgb(27, 255, 209);
+    width: 50px;
+    height: 50px;
+    border-radius: 47%;
+    margin-top: 70px;
+    margin-left: 30px;
+    padding-left: 3px;
+    padding-top: 2px;
+}
+
+.form {
+    display: flex;
+}
+
+.what select {
+    width: 4vw;
+    max-height: 20px;
+    color:black;
+    margin-top: 60px;
+}
+
+.form{
+    /*border: 1px solid red;*/
+    width: 9vw;
+    height: 20px;
+    position: relative;
+    top: 60px;
+    right: 27px
+}
+
+.dot{
+    display: flex;
+    gap: 3px;
+}
+
+.point1{
+    border: 1px solid rgb(17, 255, 88);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(17, 255, 88);
+    
+}
+.point2{
+    border: 1px solid rgb(17, 255, 88);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(17, 255, 88);
+    
+}
+
+.point3{
+    border: 1px solid rgb(17, 255, 88);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(17, 255, 88);
+    
+}
+
+.point4{
+    border: 1px solid rgb(187, 187, 187);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(187, 187, 187);
+    
+}
+
+
+.form select{
+    width: 68px;
+    margin-top: 1px;
+    margin-left: 0.2vw;
+    border: 1px solid transparent;
+}
+
+.red-dot{
+    border: 1px solid red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding-left: 7px;
+    padding-right: 2px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    background-color: red;
+    margin: 12px 0px 30px -22px;
+    
+    
+}
+
+.red-dot h6{
+    color: white;
+}
